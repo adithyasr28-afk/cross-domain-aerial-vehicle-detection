@@ -1,0 +1,20 @@
+# Exact installed distribution versions verified on Windows / Python 3.13.5.
+# torch/torchvision runtime reports +cpu; PyPI distribution versions are below.
+# Install once online; runtime does not install or download packages.
+ultralytics==8.4.184
+torch==2.14.1
+torchvision==0.29.1
+gradio==6.30.0
+gradio-client==2.7.2
+opencv-python==5.0.0.93
+numpy==2.3.5
+pillow==12.0.0
+matplotlib==3.10.9
+# Pin key serving dependencies as tested, as well as all direct app imports.
+pandas==2.3.3
+huggingface-hub==2.3.0
+fastapi==0.162.0
+starlette==1.9.0
+pydantic==2.12.5
+uvicorn==0.38.0
+psutil==7.1.3
